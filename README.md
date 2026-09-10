@@ -9,7 +9,7 @@ Quora question pairs duplicate detector.
 3. Choose the repository and branch, then set **Main file path** to `app.py`.
 4. Deploy. Streamlit Cloud installs the packages from `requirements.txt` automatically.
 
-If Streamlit Cloud still shows Python 3.14, open **Advanced settings** in the deployment dialog and select Python 3.11, then redeploy. This project pins scikit-learn 1.2.2 because the saved model was created with that version.
+The requirements support Streamlit Cloud's Python 3.14 runtime. If you select Python 3.11 in **Advanced settings**, the original model-training versions can also be used, but the saved model may emit a scikit-learn version warning when loaded with newer versions.
 
 The Streamlit app loads the model directly, so no FastAPI server or `API_URL` secret is required. The FastAPI service in `src/api.py` remains available for separate API hosting with Uvicorn.
 
