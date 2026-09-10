@@ -8,5 +8,5 @@ pytest
 rapidfuzz
 requests
 scikit-learn==1.2.2
-streamlit==1.39.0
+streamlit==1.54.0
 uvicorn
