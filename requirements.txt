@@ -2,11 +2,11 @@ fastapi
 httpx
 joblib
 nltk
-numpy>=2.1.0
-pandas>=2.2.3
+numpy==1.24.4
+pandas==2.0.3
 pytest
 rapidfuzz
 requests
-scikit-learn>=1.7.0
-streamlit>=1.39.0
+scikit-learn==1.2.2
+streamlit==1.39.0
 uvicorn
