@@ -7,6 +7,6 @@ pandas==2.0.3
 pytest
 rapidfuzz
 requests
-scikit-learn==1.2.2
+scikit-learn==1.5.0
 streamlit==1.39.0
 uvicorn
