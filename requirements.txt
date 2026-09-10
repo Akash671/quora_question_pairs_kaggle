@@ -1,0 +1,11 @@
+fastapi
+httpx
+joblib
+nltk
+numpy==1.24.4
+pandas
+pytest
+rapidfuzz
+scikit-learn==1.2.2
+streamlit
+uvicorn
